@@ -1,0 +1,185 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#navmain {
+  display: flex;
+  width: 100vw;
+  font-size: 30px;
+  background-color: black;
+  height: 40px;
+  font-style: oblique;
+  color: white;
+}
+#logo {
+  padding-left: 15px;
+}
+.navid {
+  width: 100vw;
+  height: 40px;
+  background-color: black;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.navlinks {
+  font-size: medium;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: white;
+  padding: 4px 10px;
+  transition: 0.2s ease;
+}
+.navlinks:hover {
+  color: black;
+  background-color: rgb(30, 255, 188);
+  border-radius: 2px;
+  box-shadow: 0px 0px 4px aqua;
+}
+#manfooter {
+  width: 99vw;
+  height: 40vh;
+  background-color: rgb(4, 1, 17);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 400px) {
+  #navmain {
+    flex-direction: column;
+    height: 120px;
+  }
+  .navid {
+    flex-direction: column-reverse;
+    height: 80px;
+  }
+  .navlinks {
+    padding: 10px 100px;
+  }
+  .navlinks:hover {
+    color: white;
+    background-color: rgb(31, 26, 26);
+  }
+}
+/*home*/
+#imgdiv {
+  width: 100vw;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  background-image: url("image/weblogo.jpg");
+}
+#namDiv {
+  padding-top: 70px;
+}
+
+#name {
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  font-style: italic;
+  transition: 0.4s;
+  display: inline-block;
+  margin: 0px auto;
+  margin-left: 70px;
+}
+#name:hover {
+  color: hsl(189, 97%, 58%);
+  box-shadow: 0px 0px 4px aqua;
+}
+#power {
+  width: 100vw;
+  height: 70px;
+  margin-top: 280px;
+}
+#powerext {
+  color: white;
+  width: 400px;
+  padding: 4px;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 3px;
+  box-shadow: 0px 0px 16px rgba(13, 114, 230, 0.596);
+  text-align: center;
+  line-height: 23px;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+  font-weight: bolder;
+  font-style: oblique;
+  transition: 0.2s;
+}
+#powerext:hover {
+  padding: 7px;
+}
+#pad {
+  height: 40px;
+  background-color: rgb(20, 20, 20);
+}
+#flexdiv {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.comtent {
+  width: 30vw;
+  padding: 40px;
+  padding-bottom: 0px;
+  margin: 30px auto;
+  border: 1px solid black;
+  box-shadow: 0px 0px 16px rgba(145, 91, 245, 0.541);
+}
+
+@media (max-width: 400px) {
+  #name {
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  #powerext {
+    width: 200px;
+  }
+}
+/*abou*/
+#divoflikno {
+  color: white;
+  background-color: rgb(8, 10, 121);
+  height: 35px;
+  position: sticky;
+  top: 0px;
+}
+.licks {
+  float: right;
+  padding-right: 20px;
+  font-size: 25px;
+}
+#aboutmaincotiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aboutitems {
+  width: 50vw;
+  padding: 0px 20px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+.titel {
+  text-align: center;
+  padding: 25px;
+}
+.likebtn {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(212, 117, 255);
+  border: 1px solid black;
+  border-radius: 50px;
+  float: right;
+  margin-bottom: 19px;
+  margin-top: 39px;
+  transition: 0.7s;
+}
+.likimg {
+  width: 25px;
+  padding: 6px;
+}
